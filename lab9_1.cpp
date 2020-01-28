@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	int i = 1;
 	int count[5] = {}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
-	cout << "Please input grade of each student (A-F) or input 0 to exit.";
+	cout << "Please input grade of each student (A-F) or input 0 to exit.\n";
 	do{ 
 		char grade;
 		cout << "Student [" <<i<< "]:";
@@ -30,7 +30,7 @@ int main(){
 		}	
 		i++;	
 	}while(true);
-	cout << "In total "<<i-1<< "students.";
+	cout << "In total "<<i-1<< "students.\n";
 	cout << "A = " << count[0] <<",";
 	cout << "B = " << count[1] <<",";	
 	cout << "C = " << count[2] <<",";
